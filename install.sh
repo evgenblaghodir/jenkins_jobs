@@ -1,7 +1,7 @@
 #!/bin/bash
 
-javavers=`java -version`
-antvers=`ant -version`
+javavers="java -version"
+antvers="ant -version"
 
 if [ -z "$javavers"]; then
          echo "JAVA NOT INSTALLED"
