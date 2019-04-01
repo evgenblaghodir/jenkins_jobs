@@ -1,4 +1,5 @@
 #!/bin/bash
+
 javavers=`java -version`
 antvers=`ant -version`
 
