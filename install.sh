@@ -3,8 +3,6 @@
 javavers=`java -version`
 antvers=`ant -version`
 
-echo $javavers
-echo $antvers
 if [ -z "$javavers"]; then
          echo "JAVA NOT INSTALLED"
          echo "Installing...."
